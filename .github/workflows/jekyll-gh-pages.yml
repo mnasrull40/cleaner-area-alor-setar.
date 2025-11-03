@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleaner Area Alor Setar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 1.5em 0;
+    }
+    nav {
+      background-color: #e6f4e6;
+      text-align: center;
+      padding: 0.5em;
+    }
+    nav a {
+      color: #2e8b57;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 2em;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      background-color: #2e8b57;
+      color: white;
+      padding: 1em 0;
+      margin-top: 2em;
+    }
+    button {
+      background-color: #2e8b57;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cleaner Area Alor Setar</h1>
+    <p>Kemaskan rumah, pejabat & kawasan anda dengan servis kami!</p>
+  </header>
+
+  <nav>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#servis">Servis</a>
+    <a href="#hubungi">Hubungi</a>
+  </nav>
+
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>Kami menyediakan perkhidmatan pembersihan untuk rumah, pejabat, dan kawasan sekitar Alor Setar. 
+    Pekerja kami berpengalaman dan amanah — memastikan tempat anda bersih dan selesa.</p>
+  </section>
+
+  <section id="servis">
+    <h2>Servis Kami</h2>
+    <ul>
+      <li>Pembersihan rumah dan pejabat</li>
+      <li>Cuci lantai & tingkap</li>
+      <li>Buang sampah & sisa</li>
+      <li>Pembersihan selepas ubah suai</li>
+    </ul>
+  </section>
+
+  <section id="hubungi">
+    <h2>Hubungi Kami</h2>
+    <p>WhatsApp: <a href="https://wa.me/60163504728">+6016-3504728</a></p>
+    <p>Alamat: Alor Setar, Kedah</p>
+    <button onclick="window.location.href='https://wa.me/60163504728'">Hubungi Sekarang</button>
+  </section>
+
+  <footer>
+    <p>© 2025 Cleaner Area Alor Setar. Semua hak cipta terpelihara.</p>
+  </footer>
+</body>
+</html>
